@@ -1,0 +1,1 @@
+python "run_hupagescan_gpu.py" -munet --train-folder="train_folder/" --validation-folder="validation_folder/" --gpu="1" --bs="4" --train-steps="1" --valid-steps="1" --no-aug --train-samples="1300" --valid-samples="200" --lr="0.0001"
